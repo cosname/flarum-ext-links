@@ -12,7 +12,7 @@ function LinkItem(link) {
         <span className="LinkListItem-name">{link.title()}</span>
         {Button.component({
           className: 'Button Button--link',
-          icon: 'fas fa-pencil',
+          icon: 'fas fa-pencil-alt',
           onclick: () => app.modal.show(new EditLinkModal({ link })),
         })}
       </div>
